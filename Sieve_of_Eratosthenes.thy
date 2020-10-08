@@ -859,4 +859,6 @@ theorem erast_prime:
   using assms
   using erast_keeps_prime erast_prime_stays by blast
 
+export_code erast in Haskell
+
 end
